@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pydantic
+python-dotenv
+alembic
+passlib[bcrypt]        # for password hashing
+python-jose[cryptography]  # for JWT auth (optional)
